@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Burada Gabriel</title>
+</head>
+<body>
+
+  <div id="headers" class="gradient-background2">
+    <h1 class="header1">Bine ai venit!</h1>
+    <h2 class="header2">Acesta este site-ul meu personal.</h2>
+  </div>
+  
+  <div id="main-content">
+    <img src="./SEDINTA FOTO TULCEA-12E.211.jpg" height="300px" class="photo1">
+    <h3 class="header3">Salut.</h3>
+    <p>Sunt un web developer in devenire. Recunoscator pentru tot ce are.</p>
+    
+
+    <h3 class="underline1">Diplome si competente</h3>
+    <h2 class="underline1">Diplome scolare</h2>
+    <ul>
+      <li>Diploma de bacalaureat: 2019-2023. Colegiul Economic "Delta Dunarii" Tulcea.<br>
+        Note: 5.20 limba si literatura romana, 8.40 matematica, 8.55 geografie.
+      </li>
+      <li>Certificat de nivel 4. Filiera tehnologica. Profil servicii. Domeniul<br>
+        comert. Specializarea profesionala Tehnician in activitati de comert.<br>
+        Punctaj "Excelent(96 puncte)".
+      </li>
+      <li>Certificat de competente digitale.<br>
+        Punctaj 79 de puncte, "Utilizator experimentat"
+      </li>
+      <li>Certificat de competenta lingvistica intr-o limba de circulatie<br>internationala. Limba engleza. 
+        Nivel B1.
+      </li>
+      <li>Certificat de competenta lingbistica de comunicare orala in limba<br>
+        romana. Nivelul "Utilizator mediu".
+      </li>
+      <li>Diploma de absolvire a liceului.
+      </li>
+      <li>
+        Diploma mentiune an scolar 2022-2023.
+      </li>
+      <li>
+        Diploma mentiune an scolar 2021-2022.
+      </li>
+    </ul>
+    <h2 class="underline1">Diplome extra-scolare</h2>
+    <ul>
+      <li>Diploma Olimpiada Nationala a Sportului Scolar faza judeteana 2022.<br>
+        Locul II.
+        </li>
+      <li>Diploma Olimpiada Nationala a Sportului Scolar faza judeteana 2023.<br>
+      Locul II.
+      </li>
+      <li>Diploma de Absolvire Academia Te Fac Programator. Perioada 4 martie<br>
+      2023 - 24 iunie 2023. Modul I: Fundamentele Programarii C/C++.
+      </li>
+      <li>Diploma de Absolvire Academia Te Fac Programator. Perioada 1 iulie<br>
+      2023 - 18 septembrie 2023. Modulul II: Programarea e ca viata de zi cu <br>
+      zi - C#.
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="gradient-background2 footer">
+    <p>© Burada Gabriel. Toate drepturile rezervate</p>
+    <a href="https://www.instagram.com/gabrielburadaa/" target="_blank">Instagram</a>
+    <a href="https://www.facebook.com/gabi.burada.1/" target="_blank">Facebook</a>
+    <button class="night" onclick="myFunction()">Night mode</button>
+  </div>
+
+  <script>
+      function myFunction() {
+          let element = document.body;
+          let contentElement = document.getElementById("main-content")
+          let footerElement = document.querySelector(".footer")
+          let headersElement = document.getElementById("headers")
+          let specialHeader = document.querySelector(".header3")
+
+          element.classList.toggle("black");
+          contentElement.classList.toggle("text-alb")
+          footerElement.classList.toggle("gradient-background3")
+          headersElement.classList.toggle("gradient-background3")
+          specialHeader.classList.toggle("text-alb")
+      }
+  </script>
+</body>
+</html>
